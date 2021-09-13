@@ -6,7 +6,7 @@ def main():
     'o':';', 'P':']', 'p':'[', 'Q':'?', 'q':'>', 'R':'<', 'r':'"',
     'S':'}', 's':'{', 'T':'j', 't':'A', 'U':'N', 'u':'g', 'V':'o', 
     'v':'f', 'W':'E', 'w':'t', 'X':'T', 'x':'K', 'Y':'w', 'y':'Q',
-    'Z':'d', 'z':'S', '.':'R', ':':'p'}
+    'Z':'d', 'z':'S', '.':'R', ':':'p', ' ':'M'}
 
     outfile = open('info_security.txt','r')
     encrypt = open('encrypt_doc.txt','w')
